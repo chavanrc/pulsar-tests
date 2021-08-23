@@ -1,0 +1,14 @@
+Index: cpp/src/include/stmpct/gk.hpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- cpp/src/include/stmpct/gk.hpp	(revision 7680bb75be1e0474c2694d6809bd679d2f5c24bf)
++++ cpp/src/include/stmpct/gk.hpp	(date 1609911590380)
+@@ -1,5 +1,6 @@
+ #pragma once
+ 
++#include <cassert>
+ #include <cmath>
+ 
+ // The Greenwald-Khanna algorithm as defined in the paper
